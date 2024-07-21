@@ -1,8 +1,10 @@
 #!/usr/bin/python3
+"""A function that defines a square shape"""
+
 
 class Square():
     """
-    A function that defines a square class
+    Defines a square class
 
     Attributes:
     - width: The width of the square.
