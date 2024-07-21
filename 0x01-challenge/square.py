@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""A function that defines a square shape"""
+"""
+A function that defines a square shape
+"""
 
 
 class Square():
