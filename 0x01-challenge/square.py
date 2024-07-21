@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" A function to find the area and perimeter of a square """
+"""A function that defines a square module"""
 
 
 class square():
@@ -8,7 +8,7 @@ class square():
     height = 0
 
     def __init__(self, *args, **kwargs):
-        """Initialize a square class"""
+        """Initialize an instance of a square class"""
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -16,18 +16,18 @@ class square():
         """Area of the square"""
         return self.width * self.height
 
-    def PermiterOfMySquare(self):
+    def permiter_of_my_square(self):
         """Perimeter of the square"""
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
-        """Print the objects in string format"""
+        """Print the string representation of the square instance"""
         return "{}/{}".format(self.width, self.height)
 
 
 if __name__ == "__main__":
-    """Create an instance for a square"""
+    """Create an instance of a square"""
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
-    print(s.PermiterOfMySsquare())
+    print(s.permiter_of_my_square())
