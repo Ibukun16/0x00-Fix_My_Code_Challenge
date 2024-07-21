@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-"""A function that defines a square module"""
 
-
-class Square():
+class square():
     """
-    Define a square class
+    A function that defines a square class
 
     Attributes:
     - width: The width of the square.
@@ -12,7 +10,8 @@ class Square():
     """
 
     def __init__(self, width=0, height=0):
-        """Initialize an instance of a square class
+        """
+        Initialize an instance of a square class
 
         Args:
         - width: The width of the square
@@ -35,8 +34,7 @@ class Square():
 
 
 if __name__ == "__main__":
-    """Create an instance of a square"""
-    s = Square(width=12, height=9)
+    s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
